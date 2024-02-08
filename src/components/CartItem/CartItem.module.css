@@ -1,0 +1,50 @@
+.cartItem{
+    display: flex;
+    height: 150px;
+    margin: 0px 5% 5px 10%;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.productDiv{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.185);
+    padding-top: 15px;
+}
+.cartItem:nth-child(1){
+    display: flex;
+}
+
+.divInfo{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+
+.divPrecio{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.divPrecio b{
+    width: 50%;
+    text-align: center;
+    height: 20px;
+}
+.cartItem img{
+    height: 100%;
+}
+.button{
+    width: 5%;
+    background-color: white;
+    border: none;
+    height: 20px;
+    align-self: center;
+    margin-top: 15px;
+    color: red;
+    font-weight: 600;
+    padding: 0px;
+}

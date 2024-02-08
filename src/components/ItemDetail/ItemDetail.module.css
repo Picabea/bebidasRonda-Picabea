@@ -1,0 +1,34 @@
+.itemDetail img{
+    width: 50%;
+    height: fit-content;
+    display: inline;
+}
+
+
+.divRightColumn{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.descripcionDiv{
+    width: 100%;
+}
+
+.itemDetail b{
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.itemDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    height: 100%;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 100%;
+}

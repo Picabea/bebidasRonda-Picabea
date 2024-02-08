@@ -1,0 +1,44 @@
+.form{
+    width: 505px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form input{
+    margin: 3px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.formsContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 505px;
+}
+.submitButton{
+    align-self: center;
+}
+
+.submitButton{
+    padding: 7px;
+    margin: 2px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+.submitButton:hover{
+    background-color: rgb(219, 219, 219);
+    border: 1px solid rgb(177, 177, 177);
+}
+
+.submitButton:active{
+    background-color: rgb(202, 202, 202);
+    border: 1px solid rgb(163, 163, 163);
+}

@@ -1,0 +1,16 @@
+
+.leyenda{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.leyenda p{
+    width: 50%;
+    text-align: center;
+}
+
+.leyenda div{
+    display: flex;
+    width: 50%;
+}

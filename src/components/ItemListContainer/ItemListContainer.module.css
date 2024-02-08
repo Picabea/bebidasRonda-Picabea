@@ -1,0 +1,7 @@
+.itemListContainer{
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+}

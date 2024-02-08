@@ -1,0 +1,60 @@
+.firstDiv{
+    width: 87px !important;
+    align-self: center;
+    justify-self: center;
+}
+.firstDiv button{
+    height: 35px;
+    width: 25px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.firstDiv button:hover, .submit button:hover{
+    background-color: rgb(219, 219, 219);
+}
+.firstDiv button:active, .submit button:active{
+    background-color: rgb(190, 190, 190);
+}
+.decrementButton{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.incrementButton{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.firstDiv h4{
+    height: 22px;
+    width: 45px;
+    text-align: center;
+}
+
+.firstDiv div{
+    width: 45px !important;
+    border: 1px solid lightgray;
+    height: 33px !important; 
+}
+.itemCount{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemCount div{
+    display: flex;
+    align-items: center;
+}
+
+.submit{
+    margin-top: 10px;
+    align-self: start !important;
+}
+
+.submit button{
+    width: 120px !important;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}

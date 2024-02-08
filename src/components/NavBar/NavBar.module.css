@@ -1,0 +1,76 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(240, 201, 76); 
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.nav div{
+    display: flex;
+}
+
+.alignCenter{
+    align-self: center;
+}
+
+.nombrePagina{
+    font-family: Space Grotesk, sans-serif;
+    font-size: 250%;
+    margin: 5px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.linkNoDecoration{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    align-self: center;
+}
+
+/* .button{
+    padding: 7px;
+    margin: 2px;
+    background-color: rgba(0, 128, 0, 0.233);
+    border: 3px solid rgb(89, 180, 89);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover{
+    background-color: rgba(0, 128, 0, 0.404);
+    border: 3px solid rgb(54, 128, 54);
+}
+ */
+
+ .button{
+    padding: 7px;
+    margin: 2px 4px 10px 4px;
+    /* background-color: rgb(240, 240, 240);
+    border: 3px solid rgb(206, 206, 206); */
+    background-color: rgb(250, 198, 26);
+    border: 3px solid rgb(255, 182, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+.button:hover{
+    background-color: rgb(236, 187, 25);
+    border: 3px solid rgb(236, 169, 0);
+}
+
+.button:active{
+    background-color: rgb(223, 176, 23);
+    border: 3px solid rgb(216, 155, 0);
+}
